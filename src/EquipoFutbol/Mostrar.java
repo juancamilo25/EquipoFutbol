@@ -57,9 +57,6 @@ try {
         r1.setCantidadTitulos(canTitulos);
 
         ListadoJugadoresTitularAux.add(r1);
-       
-
-
         int respuesta = getRespuesta(reader, "¿Desea Agregar Jugadores al " + nomEquipo + "?"+
                 "\n1. Si " +
                 "\n2. No");
