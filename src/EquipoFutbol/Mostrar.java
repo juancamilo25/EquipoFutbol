@@ -22,7 +22,7 @@ public class Mostrar {
 
 
         while (opcion !=4) {
-            System.out.println( "1 almacenar equipos de futbol" +
+            System.out.println( "1.Agregar Equipos de Futbol" +
                     "\n2.Reporte Basico" +
                     "\n3.Reporte Detallado" +
                     "\n4.Salir");
