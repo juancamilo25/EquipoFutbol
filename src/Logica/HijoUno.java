@@ -106,9 +106,9 @@ public class HijoUno extends Padre {
 
     }
 */
-    public void AgregarJugadorTitular(List<HijoUno> JugadorTitular){
+    public void AgregarJugadorTitular(HijoUno JugadorTitular){
 
-            ListadoJugadoresTitular.addAll(JugadorTitular);
+            ListadoJugadoresTitular.add(JugadorTitular);
 
 
 

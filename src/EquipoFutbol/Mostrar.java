@@ -41,7 +41,7 @@ public class Mostrar {
 try {
     for (int j = 0; j < cantidadEquipos; j++) {
 
-//crear un objeto tipo temporal
+
         HijoUno r1 = new  HijoUno();
 
         System.out.println("Indique el nombre del equipo");
@@ -55,9 +55,9 @@ try {
         r1.setNombreEquipo(nomEquipo);
         r1.setNombreEstadio(nomEstadio);
         r1.setCantidadTitulos(canTitulos);
-//antes de hacer esto debo crear un objeto que me guarde mis datos por fuera del ciclo :v
+
         ListadoJugadoresTitularAux.add(r1);
-        t1.AgregarJugadorTitular(ListadoJugadoresTitularAux);
+       
 
 
         int respuesta = getRespuesta(reader, "¿Desea Agregar Jugadores al " + nomEquipo + "?"+
@@ -78,7 +78,7 @@ try {
                 r3.setNombreJugadorTitular(nombreTitula);
                 r3.setPosicionJugadorTitula(posicionTitula);
 
-                t1.AgregarJugadorTitular((List<HijoUno>) r3);
+                t1.AgregarJugadorTitular(r3);
 
 
             }
