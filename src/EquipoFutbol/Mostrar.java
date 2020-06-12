@@ -19,22 +19,14 @@ public class Mostrar {
         InputStreamReader input = new InputStreamReader(System.in);
         BufferedReader bInput = new BufferedReader(input);
         String nomEquipo;
-
-
         while (opcion !=4) {
             System.out.println( "1.Agregar Equipos de Futbol" +
                     "\n2.Reporte Basico" +
                     "\n3.Reporte Detallado" +
                     "\n4.Salir");
             opcion = reader.nextInt();
-
             switch (opcion){
-
-
                 case 1:
-
-
-
                     System.out.println("¿Cuantos equipos de futbol quiere almacenar?");
                      cantidadEquipos = reader.nextInt();
 
