@@ -54,7 +54,7 @@ try {
                 "\n2. No");
 
         if(respuesta == 1) {
-            int cantidadJugadoresTitulares = getRespuesta(reader, "Indique la cantidad de jugadores titulares");
+            int cantidadJugadoresTitulares = getRespuesta(reader, "Indique la cantidad de jugadores titulares que desea agregar");
             for (int i = 0; i < cantidadJugadoresTitulares; i++) {
                HijoUno r3 = new HijoUno();
 
